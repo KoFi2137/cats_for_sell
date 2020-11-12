@@ -7,15 +7,50 @@
     background-position: center;
     height: 1000px;
     background-size: cover;
-}
-#bigcat h3, p {
     color: whitesmoke;
     text-align: center;
 }
+
 #click {
     margin-left: 47%;
     margin-right: 47%;
 }
 #bigcat2 {
-    padding-top: 110%;
+    padding-top: 800px;
 }
+#breed p {
+    border-style: solid;
+    border-color: lightgrey;
+    border-width: 1px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#breed {
+    margin-top: 100px;
+    flex: 1;
+}
+.stuff {
+    border-style: solid;
+    border-color: grey;
+    border-width: 1px;
+}
+#forsell {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    justify-content: space-between;
+    margin-left: 20%;
+    margin-right: 20%;
+    align-items: baseline;
+}
+#new_stuff {
+    display: flex;
+    flex: 3;
+}
+.pad {
+    padding: 10px;
+}
+
+
+
+
