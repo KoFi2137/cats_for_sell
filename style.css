@@ -1,22 +1,7 @@
 .btn-group {
     float: right;
 } 
-#bigcat {
-    background-image: url(./img/3\ kot.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 1000px;
-    background-size: cover;
-    color: whitesmoke;
-    text-align: center;
-}
 
-#click {
-    margin-left: 47%;
-    margin-right: 47%;
-}
-#bigcat2 {
-    padding-top: 800px;
 }
 #breed p {
     border-style: solid;
@@ -33,6 +18,7 @@
     border-style: solid;
     border-color: grey;
     border-width: 1px;
+    text-align: center;
 }
 #forsell {
     display: flex;
@@ -45,7 +31,11 @@
 }
 #new_stuff {
     display: flex;
-    flex: 3;
+    flex-wrap: wrap;
+}
+#new_stuf_title {
+    width: 100%;
+    text-align: center;
 }
 .pad {
     padding: 10px;
@@ -89,7 +79,24 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
-
-
+#wow {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    display: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 100px;
+}
+#wow div {
+    margin: 15px;
+}
+.wow69 {
+    text-align: center;
+    border-style: solid;
+    border-color: grey;
+    border-width: 1px; 
+    flex-basis: 200px; 
+    padding: 10px;
+}
 
