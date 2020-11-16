@@ -1,8 +1,6 @@
 .btn-group {
     float: right;
 } 
-
-}
 #breed p {
     border-style: solid;
     border-color: lightgrey;
@@ -40,44 +38,11 @@
 .pad {
     padding: 10px;
 }
-#cool{
+.cool{
     margin-top: 100px;
 }
-#coolflex {
-    display: flex;
-    justify-content: center;
-    display: 10px;
-}
-#kot1 {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    position: relative;
-    text-align: center;
-    color: black;
-}
-#kot4 {
-    position: relative;
-    text-align: center;
-    color: black;
-}
-#kot6 {
-    position: relative;
-    text-align: center;
-    color: black;
-}
-.padding {
-    padding: 10px;
-}
-.size {
-    height: 300px;
+.opacity {
     opacity: 0.5;
-}
-.sztos {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 #wow {
     margin-top: 100px;
@@ -99,4 +64,5 @@
     flex-basis: 200px; 
     padding: 10px;
 }
+
 
